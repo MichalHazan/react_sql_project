@@ -5,5 +5,9 @@
     "express-session": "^1.17.2",
     "mysql": "^2.18.1",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
   }
 }

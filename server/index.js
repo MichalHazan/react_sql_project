@@ -1,6 +1,7 @@
 const express = require('express')
 const session = require('express-session')
 const cors = require('cors')
+let PORT = 2001;
 
 const corsOptions = {
     origin: "http://localhost:3000",
@@ -29,4 +30,4 @@ app.use('/vacations', require('./routes/vacations'))
 app.use('/users', require('./routes/users'))
 app.use('/adminpage', require('./routes/adminpage'))
 
-app.listen(2001, () => console.log("rocking2001"))
+app.listen(process.env.PORT || PORT, () => console.log(`rocking ${PORT}`))
