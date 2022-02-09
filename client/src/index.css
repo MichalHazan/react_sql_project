@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.headline {
+  width: 100%;
+  text-align: center;
+}
+
+.cardImg {
+  height: 35vh;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Redressed', cursive;
+}
+
+.vinfo p {
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
